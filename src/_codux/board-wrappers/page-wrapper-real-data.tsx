@@ -24,3 +24,5 @@ export function PageWrapperRealData({ path, children }: Props) {
         </WixAPIContextProvider>
     );
 }
+
+

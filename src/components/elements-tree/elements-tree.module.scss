@@ -1,0 +1,21 @@
+@import '@styles/theme.module.scss';
+
+.root {
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div1 {
+    display: flex;
+}
+.aside1 {
+    width: 155px;
+}
+.video1 {
+    width: 80px;
+}
+.input1 {
+    border: 3px solid black;
+}

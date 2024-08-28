@@ -12,9 +12,11 @@ export interface HeaderProps {
 export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
+            <button>Button</button>
             <Link to="/" className={styles.logo}>
                 LOGO
             </Link>
+
             <div className={styles.menu}>
                 <Link
                     to="/"
